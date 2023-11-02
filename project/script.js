@@ -22,6 +22,10 @@ function setWidthScreen() {
     
     document.querySelector('.screen_width').textContent = `${widthScreen}px`;
     infoMessage.textContent = styleInfo;
+
+
+    // CONSOLE LOG text content
+    console.log(infoMessage.textContent);
 }
 
 setWidthScreen();
