@@ -1,0 +1,16 @@
+.mountain__bg {
+    position: relative;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.mountain {
+    position: absolute;
+    background-image: url('./../img/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 110%;
+    height: 110%;
+    transition: all .1s ease;
+}
